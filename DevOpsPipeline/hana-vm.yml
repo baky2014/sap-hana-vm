@@ -40,7 +40,7 @@ parameters:
 - name: nr
   displayName: HANA Instance Number (00-99)
   type: string
-  default: "20"
+  default: "00"
 
 - name: vmname
   displayName: HANA VM Name in Azure
@@ -55,7 +55,7 @@ parameters:
 - name: location
   displayName: Target Region
   type: string
-  default: "France Central"
+  default: "West Europe"
   values:
   - "West Europe"
   - "France Central"
@@ -64,7 +64,7 @@ parameters:
 - name: vnet_subnet
   displayName: Target VNET & Subnet
   type: string
-  default: "vnet-sap-prod-francecentral-001/subnets/snet-sap-prod-francecentral-001"
+  default: "vnet-sap-prod-westeurope-001/subnets/snet-sap-prod-westeurope-001"
   values:
   - "vnet-sap-prod-westeurope-001/subnets/snet-sap-prod-westeurope-001"
   - "vnet-sap-prod-francecentral-001/subnets/snet-sap-prod-francecentral-001"
